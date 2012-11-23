@@ -51,22 +51,6 @@
  module glcorearb;
 
 public:
-	version(GL_VERSION_4_3) version = GL_VERSION_4_2;
-	version(GL_VERSION_4_2) version = GL_VERSION_4_1;
-	version(GL_VERSION_4_1) version = GL_VERSION_4_0;
-	version(GL_VERSION_4_0) version = GL_VERSION_3_3;
-	version(GL_VERSION_3_3) version = GL_VERSION_3_2;
-	version(GL_VERSION_3_2) version = GL_VERSION_3_1;
-	version(GL_VERSION_3_1) version = GL_VERSION_3_0;
-	version(GL_VERSION_3_0) version = GL_VERSION_2_1;
-	version(GL_VERSION_2_1) version = GL_VERSION_2_0;
-	version(GL_VERSION_2_0) version = GL_VERSION_1_5;
-	version(GL_VERSION_1_5) version = GL_VERSION_1_4;
-	version(GL_VERSION_1_4) version = GL_VERSION_1_3;
-	version(GL_VERSION_1_3) version = GL_VERSION_1_2;
-	version(GL_VERSION_1_2) version = GL_VERSION_1_1;
-
-
 	extern(C):
 	
 	version(Windows)
